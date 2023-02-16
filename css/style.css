@@ -431,7 +431,7 @@ li {
 
 .hamburger {
 	display: none;
-	font-size: 24px;
+	font-size: 14px;
 	cursor: pointer;
 }
 
@@ -450,16 +450,16 @@ li {
 	display: block;
 	position: absolute;
 	transition: all .3s;
-	width: 100px;
-	height: 100px;
+	width: 10px;
+	height: 10px;
 }
 
 .hamburger-line::before {
-	top: 7px;
+	top: 10px;
 }
 
 .hamburger-line::after {
-	top: -7px;
+	top: -10px;
 }
 
 @media (max-width: 1140px) {
